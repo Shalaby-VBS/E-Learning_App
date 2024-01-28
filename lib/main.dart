@@ -9,6 +9,7 @@ import 'package:quiz_flutter/repo/user_repository/user_repository.dart';
 import 'package:quiz_flutter/screen/app/app.dart';
 
 Future<void> main() {
+  // ignore: deprecated_member_use
   return BlocOverrides.runZoned(
     () async {
       WidgetsFlutterBinding.ensureInitialized();
