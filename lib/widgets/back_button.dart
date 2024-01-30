@@ -4,6 +4,7 @@ import 'package:quiz_flutter/themes/colors.dart';
 import 'package:quiz_flutter/themes/images.dart';
 import 'package:quiz_flutter/utils/base_navigation.dart';
 
+// ignore: must_be_immutable
 class BuildBackButton extends StatelessWidget {
   BuildBackButton({
     this.left,
